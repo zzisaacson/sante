@@ -55,7 +55,7 @@ export default function RootLayout() {
         <Stack.Screen
           name="post-preview"
           options={{
-            title: 'Post Preview',
+            headerShown: false,
           }}
         />
       </Stack>
